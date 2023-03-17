@@ -1,0 +1,28 @@
+{
+    "name": "marinar/orders_phone",
+    "description": "Phone orders modulе",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marin",
+            "email": "marin@dev.nddesign.no"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Marinar\\OrdersPhone\\": "src/"
+        }
+    },
+    "require": {
+        "marinar/marinar": "*",
+        "marinar/orders": "*"
+    },
+    "extra": {
+        "marinar": {
+            "module": true,
+            "plugin": false,
+            "addon_to": false
+        }
+    }
+}

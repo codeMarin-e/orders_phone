@@ -1,0 +1,62 @@
+<?php
+return \Illuminate\Support\Arr::undot([
+    'sidebar' => 'Phone orders',
+    'orders_phone' => 'Phone orders',
+    'table.clear' => 'Clear',
+    'table.remove' => 'Remove',
+    'table.remove_ask' => 'Are you sure?',
+    'table.product_name' => 'Name',
+    'table.product_size' => 'Size',
+    'table.product_quantity' => 'Quantity',
+    'table.product_price' => 'Price',
+    'table.use_reprice' => 'Use Repricing',
+    'table.product_vat' => 'VAT',
+    'table.product_discount' => 'Discount',
+    'table.product_sum' => 'Sum',
+    'table.main_discount' => 'Discount',
+    'table.total' => 'Total',
+    'comments' => 'Comments',
+    'payments' => 'Payments',
+    'deliveries' => 'Deliveries',
+    'del_addr_same' => 'Same as factura',
+
+    'toggle_catalog' => 'Catalog',
+    'add_product_label' => 'Product',
+    'add_product' => 'Add',
+
+    'fac_addr_label' => 'Factura',
+    'fac_addr' => [
+        'fname' => 'First name',
+        'lname' => 'Last name',
+        'email' => 'Email',
+        'company' => 'Company',
+        'orgnum' => 'Org. Num.',
+        'phone' => 'Phone',
+        'postcode' => 'Post code',
+        'city' => 'City',
+        'street' => 'Street',
+        'country' => 'Country',
+    ],
+    'del_addr_label' => 'Delivery',
+    'del_addr' => [
+        'fname' => 'First name',
+        'lname' => 'Last name',
+        'email' => 'Email',
+        'company' => 'Company',
+        'orgnum' => 'Org. Num.',
+        'phone' => 'Phone',
+        'postcode' => 'Post code',
+        'city' => 'City',
+        'street' => 'Street',
+        'country' => 'Country',
+    ],
+    'user' => 'User',
+
+    'update' => 'Update',
+    'created' => 'Order was created!',
+
+    'create' => 'Create',
+    'orders' => 'Orders',
+
+    //@HOOK_LANG
+]);

@@ -1,0 +1,11 @@
+<?php
+
+    public function view_phone_order(User $user) {
+    // @HOOK_POLICY_PHONE_VIEW
+        return $user->hasPermissionTo('orders.order_phone_view', request()->whereIam());
+    }
+
+    public function create_phone_order(User $user) {
+    // @HOOK_POLICY_PHONE_CREATE
+        return $user->hasPermissionTo('orders.order_phone_create', request()->whereIam());
+    }
